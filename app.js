@@ -1,5 +1,4 @@
 async function fetchData() {
-  let count = 0;
   let data = await fetch(" https://api.coincap.io/v2/assets")
     .then((response) => response.json())
     .then((data) => data)
